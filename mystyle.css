@@ -1,0 +1,78 @@
+@import url (// fonts.googleapis.com/earlyaccess/ hanna.css );
+ul,li{margin:0; padding:0;}
+ul{-webkit-padding-start:0px;}
+
+h1{color:#021859;}
+
+#menu {
+  list-style: none;
+  height:40px;
+  padding:5px 1px;
+  margin:0;
+  background:#021859;
+}
+#menu li{
+  float:left;
+  position:relative;
+  margin:5px 80px;
+  padding:0;
+}
+
+#menu li a{
+  display:block;
+  font-family: "굴림";
+  font-weight:bold;
+  font-size:18px;
+  padding:7px 8px;  //문제찾음 ㅅㅂ
+  margin:0;
+  color:#fff;
+  margin:0;
+  text-decoration:none;
+  text-shadow:0 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+#menu li:hover > a{
+  background:#ffcab2;
+  color:black;
+  margin:0;
+}
+
+#menu ul{
+  list-style:none;
+  margin:0;
+  padding:0;
+  position:absolute;
+  left:0;
+  top:40px;
+  width:200px;
+  background:#D0DFF2;
+  text-align:center;
+  opacity:0;
+}
+
+#menu ul li{
+  float:none;
+  margin:0;
+  padding:0;
+  font-size:10px;
+}
+
+#menu ul a{
+  font-weight:normal;
+  color:black;
+}
+
+#menu ul li:hover a{
+  background:#cc9882;
+  font-weight:bold;
+}
+
+#menu li:hover ul{
+  opacity:1;
+}
+#menu li:hover ul li{
+  height:35px;
+  overflow:visible;
+  padding:0;
+
+}
